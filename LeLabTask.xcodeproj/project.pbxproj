@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF20D6DA263B3E6E00EB756E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF20D6D9263B3E6E00EB756E /* StorageManager.swift */; };
+		CF20D6DF263B485900EB756E /* UserDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF20D6DE263B485900EB756E /* UserDetailTableViewController.swift */; };
 		CF4E78A52639597100E8A05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78A42639597100E8A05C /* AppDelegate.swift */; };
 		CF4E78A72639597100E8A05C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78A62639597100E8A05C /* SceneDelegate.swift */; };
 		CF4E78A92639597100E8A05C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78A82639597100E8A05C /* ViewController.swift */; };
@@ -14,9 +16,20 @@
 		CF4E78AF2639597100E8A05C /* LeLabTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78AD2639597100E8A05C /* LeLabTask.xcdatamodeld */; };
 		CF4E78B12639597300E8A05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4E78B02639597300E8A05C /* Assets.xcassets */; };
 		CF4E78B42639597300E8A05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4E78B22639597300E8A05C /* LaunchScreen.storyboard */; };
+		CF4E78C1263A362400E8A05C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78C0263A362400E8A05C /* UserData.swift */; };
+		CF4E78C5263A365900E8A05C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78C4263A365900E8A05C /* Address.swift */; };
+		CF4E78C8263A369000E8A05C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78C7263A369000E8A05C /* NetworkManager.swift */; };
+		CF4E78CD263A391100E8A05C /* HomeServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78CC263A391100E8A05C /* HomeServiceLayer.swift */; };
+		CF4E78D0263A3B6700E8A05C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78CF263A3B6700E8A05C /* HomeViewController.swift */; };
+		CF4E78D3263A3B9800E8A05C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78D2263A3B9800E8A05C /* HomeViewModel.swift */; };
+		CF4E78D7263A3CF400E8A05C /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78D6263A3CF400E8A05C /* Company.swift */; };
+		CF4E78DB263A40A000E8A05C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78DA263A40A000E8A05C /* UserViewModel.swift */; };
+		CF4E78DE263A454E00E8A05C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4E78DD263A454E00E8A05C /* HomeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF20D6D9263B3E6E00EB756E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		CF20D6DE263B485900EB756E /* UserDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewController.swift; sourceTree = "<group>"; };
 		CF4E78A12639597100E8A05C /* LeLabTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeLabTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4E78A42639597100E8A05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF4E78A62639597100E8A05C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,15 @@
 		CF4E78B02639597300E8A05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4E78B32639597300E8A05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4E78B52639597300E8A05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4E78C0263A362400E8A05C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CF4E78C4263A365900E8A05C /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		CF4E78C7263A369000E8A05C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CF4E78CC263A391100E8A05C /* HomeServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceLayer.swift; sourceTree = "<group>"; };
+		CF4E78CF263A3B6700E8A05C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CF4E78D2263A3B9800E8A05C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CF4E78D6263A3CF400E8A05C /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		CF4E78DA263A40A000E8A05C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		CF4E78DD263A454E00E8A05C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF20D6DD263B483500EB756E /* User Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CF20D6DE263B485900EB756E /* UserDetailTableViewController.swift */,
+			);
+			path = "User Detail";
+			sourceTree = "<group>";
+		};
 		CF4E78982639597100E8A05C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +88,10 @@
 		CF4E78A32639597100E8A05C /* LeLabTask */ = {
 			isa = PBXGroup;
 			children = (
+				CF4E78BF263A360000E8A05C /* Model Class */,
+				CF4E78BD2639598900E8A05C /* Manager Class */,
+				CF4E78CB263A38EA00E8A05C /* Home View */,
+				CF20D6DD263B483500EB756E /* User Detail */,
 				CF4E78A42639597100E8A05C /* AppDelegate.swift */,
 				CF4E78A62639597100E8A05C /* SceneDelegate.swift */,
 				CF4E78A82639597100E8A05C /* ViewController.swift */,
@@ -68,6 +102,37 @@
 				CF4E78AD2639597100E8A05C /* LeLabTask.xcdatamodeld */,
 			);
 			path = LeLabTask;
+			sourceTree = "<group>";
+		};
+		CF4E78BD2639598900E8A05C /* Manager Class */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E78C7263A369000E8A05C /* NetworkManager.swift */,
+				CF20D6D9263B3E6E00EB756E /* StorageManager.swift */,
+			);
+			path = "Manager Class";
+			sourceTree = "<group>";
+		};
+		CF4E78BF263A360000E8A05C /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E78C0263A362400E8A05C /* UserData.swift */,
+				CF4E78C4263A365900E8A05C /* Address.swift */,
+				CF4E78D6263A3CF400E8A05C /* Company.swift */,
+			);
+			path = "Model Class";
+			sourceTree = "<group>";
+		};
+		CF4E78CB263A38EA00E8A05C /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				CF4E78D2263A3B9800E8A05C /* HomeViewModel.swift */,
+				CF4E78DA263A40A000E8A05C /* UserViewModel.swift */,
+				CF4E78CC263A391100E8A05C /* HomeServiceLayer.swift */,
+				CF4E78CF263A3B6700E8A05C /* HomeViewController.swift */,
+				CF4E78DD263A454E00E8A05C /* HomeTableViewCell.swift */,
+			);
+			path = "Home View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4E78CD263A391100E8A05C /* HomeServiceLayer.swift in Sources */,
+				CF4E78DB263A40A000E8A05C /* UserViewModel.swift in Sources */,
+				CF4E78DE263A454E00E8A05C /* HomeTableViewCell.swift in Sources */,
+				CF20D6DA263B3E6E00EB756E /* StorageManager.swift in Sources */,
+				CF4E78C5263A365900E8A05C /* Address.swift in Sources */,
 				CF4E78A92639597100E8A05C /* ViewController.swift in Sources */,
+				CF4E78D3263A3B9800E8A05C /* HomeViewModel.swift in Sources */,
 				CF4E78AF2639597100E8A05C /* LeLabTask.xcdatamodeld in Sources */,
+				CF4E78C8263A369000E8A05C /* NetworkManager.swift in Sources */,
+				CF20D6DF263B485900EB756E /* UserDetailTableViewController.swift in Sources */,
+				CF4E78D0263A3B6700E8A05C /* HomeViewController.swift in Sources */,
+				CF4E78D7263A3CF400E8A05C /* Company.swift in Sources */,
 				CF4E78A52639597100E8A05C /* AppDelegate.swift in Sources */,
+				CF4E78C1263A362400E8A05C /* UserData.swift in Sources */,
 				CF4E78A72639597100E8A05C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.art.LeLabTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +395,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.art.LeLabTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
